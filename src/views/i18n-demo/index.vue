@@ -7,18 +7,7 @@
       </div>
       <div>
         <el-radio-group v-model="lang" size="small">
-          <el-radio label="zh" border>
-            简体中文
-          </el-radio>
-          <el-radio label="en" border>
-            English
-          </el-radio>
-          <el-radio label="es" border>
-            Español
-          </el-radio>
-          <el-radio label="ja" border>
-            日本語
-          </el-radio>
+          <el-radio label="tr" border>Türkçe</el-radio>
         </el-radio-group>
         <el-tag style="margin-top:15px;display:block;" type="info">
           {{ $t('i18nView.note') }}
@@ -128,6 +117,7 @@ export default {
       this.$i18n.mergeLocaleMessage('zh', local.zh)
       this.$i18n.mergeLocaleMessage('es', local.es)
       this.$i18n.mergeLocaleMessage('ja', local.ja)
+      this.$i18n.mergeLocaleMessage('tr', local.tr)
     }
     this.setOptions() // set default select options
   },

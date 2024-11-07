@@ -5,10 +5,12 @@ import elementEnLocale from 'element-ui/lib/locale/lang/en' // element-ui lang
 import elementZhLocale from 'element-ui/lib/locale/lang/zh-CN'// element-ui lang
 import elementEsLocale from 'element-ui/lib/locale/lang/es'// element-ui lang
 import elementJaLocale from 'element-ui/lib/locale/lang/ja'// element-ui lang
+import elementTrLocale from 'element-ui/lib/locale/lang/tr'// element-ui lang
 import enLocale from './en'
 import zhLocale from './zh'
 import esLocale from './es'
 import jaLocale from './ja'
+import trLocale from './tr'
 
 Vue.use(VueI18n)
 
@@ -28,6 +30,10 @@ const messages = {
   ja: {
     ...jaLocale,
     ...elementJaLocale
+  },
+  tr: {
+    ...trLocale,
+    ...elementTrLocale
   }
 }
 export function getLanguage() {

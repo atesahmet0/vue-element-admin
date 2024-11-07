@@ -79,5 +79,25 @@ export default {
       two: '2',
       three: '3'
     }
+  },
+  tr: {
+    i18nView: {
+      title: 'Dili Değiştir',
+      note: 'Bu projenin uluslararasılaştırması vue-i18n tabanlıdır',
+      datePlaceholder: 'Bir gün seçin',
+      selectPlaceholder: 'Seçin',
+      tableDate: 'Tarih',
+      tableName: 'İsim',
+      tableAddress: 'Adres',
+      default: 'Varsayılan',
+      primary: 'Birincil',
+      success: 'Başarılı',
+      info: 'Bilgi',
+      warning: 'Uyarı',
+      danger: 'Tehlike',
+      one: 'Bir',
+      two: 'İki',
+      three: 'Üç'
+    }
   }
 }
